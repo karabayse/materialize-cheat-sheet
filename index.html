@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <title>Materialize Cheat Sheet</title>
+    </head>
+
+    <body>
+      <div class="container">
+        <h3>COLORS</h3>
+        <div class="pink white-text">
+          Div with color class
+        </div>
+        <div class="pink darken-3 white-text">
+          Div with darken color class
+        </div>
+        <div class="pink lighten-5 pink-text">
+          Div with lighten color class
+        </div>
+        <br><br>
+
+
+        <h3>BUTTONS</h3>
+        <button class="btn">STANDARD BUTTON</button>
+        <button class="btn waves-effect">WAVES EFFECT</button>
+        <button class="btn waves-effect waves-light">WAVES LIGHT</button>
+        <button class="btn btn-large">LARGE BUTTON</button>
+        <button class="btn disabled">DISABLED BUTTON</button>
+        <button class="btn pink darken-4">PINK DARKEN 4 BUTTON</button>
+        <button class="btn blue-grey"><i class="material-icons left">cloud</i>ICON BUTTON</button>
+
+        <!-- FLOATING BUTTON -->
+        <a href="#" class="btn-floating deep-orange darken-4 btn-large"><i class="large material-icons">add</i>FLOATING BUTTON LARGE</a>
+
+        <!-- FIXED ACTION BUTTON -->
+        <div class="fixed-action-btn">
+          <a href="#" class="btn-floating deep-orange darken-4 btn-large"><i class="large material-icons">mode_edit</i></a>
+          <ul>
+            <li>
+              <a href="#" class="btn-floating yellow btn-large"><i class="large material-icons">insert_chart</i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-floating cyan accent-4 btn-large"><i class="large material-icons">format_quote</i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-floating lime darken-4 btn-large"><i class="large material-icons">publish</i></a>
+            </li>
+            <li>
+              <a href="#" class="btn-floating orange lighten-4 btn-large"><i class="large material-icons">attach_file</i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- FLAT BUTTON -->
+        <a href="#" class="waves-effect waves-green btn-flat">FLAT BUTTON</a>
+        <br><br>
+
+
+        <h3>HELPER CLASSES</h3>
+
+        <!-- ALIGNMENT -->
+        <div class="left-align">
+          <h5>This aligns to the left</h5>
+        </div>
+        <div class="right-align">
+          <h5>This aligns to the right</h5>
+        </div>
+        <div class="center-align">
+          <h5>This aligns to the center</h5>
+        </div>
+
+        <!-- QUICK FLOATS -->
+        <div class="left">Left Float</div>
+        <div class="right">Right Float</div>
+        <!-- CLEAR -->
+        <div class="clearfix"></div>
+
+        <!-- HIDE CONTENT -->
+        <div class="hide">Hidden for all devices</div>
+        <div class="hide-on-small-only">Hidden on mobile devices</div>
+        <div class="hide-on-med-only">Hidden for tablets</div>
+        <div class="hide-on-med-and-down">Hidden for tablets and smaller</div>
+        <div class="hide-on-med-and-up">Hidden for tablets and higher</div>
+        <div class="hide-on-large-only">Hidden for desktops</div>
+
+        <!-- TRUNCATE TEXT -->
+        <h4 class="truncate">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </h4>
+        <br><br>
+
+
+        <h3>EFFECTS</h3>
+        <!-- HOVERABLE -->
+        <div class="red white-text hoverable">Hoverable Content</div>
+
+        <!-- PULSE -->
+        <div class="indigo white-text pulse">Pulsating Content</div>
+
+        <!-- SHADOWS -->
+        <p class="z-depth-1">z-depth-1</p>
+        <p class="z-depth-2">z-depth-2</p>
+        <p class="z-depth-3">z-depth-3</p>
+        <p class="z-depth-4">z-depth-4</p>
+        <p class="z-depth-5">z-depth-5</p>
+
+        <!-- FLOW TEXT -->
+        <p class="flow-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br><br>
+
+
+        <h3>IMAGES</h3>
+        <!-- RESPONSIVE -->
+        <img src="coffee-beans.jpg" class="responsive-img">
+
+        <!-- CIRCULAR -->
+        <img src="coffee-beans.jpg" class="responsive-img circle">
+        <br><br>
+
+
+        <h3>NAVIGATION</h3>
+      </div> <!-- end container class -->
+      <!-- LEFT LOGO -->
+      <nav>
+        <div class="nav-wrapper blue-grey lighten-3">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- RIGHT LOGO -->
+      <nav>
+        <div class="nav-wrapper red lighten-3">
+          <a href="#" class="brand-logo right">Logo</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- CENTER LOGO -->
+      <nav>
+        <div class="nav-wrapper teal lighten-4">
+          <a href="#" class="brand-logo center">Logo</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- DROPDOWN -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Three</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper indigo darken-4">
+          <a href="#" class="brand-logo center">Logo</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="dropdown-button" data-activates="dropdown1">Dropdown
+              <i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- ICONS IN NAV -->
+      <nav>
+        <div class="nav-wrapper #757575 grey darken-1">
+          <a href="#" class="brand-logo center">Logo</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#"><i class="material-icons right">search</i></a></li>
+            <li><a href="#"><i class="material-icons right">refresh</i></a></li>
+            <li><a class="waves-effect #424242 grey darken-3 btn">Button</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- SEARCHBAR -->
+      <nav>
+        <form>
+          <div class="nav-wrapper">
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <!-- MOBILE COLLAPSE -->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse">
+            <i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <div class="container">
+        <h3>COLLECTIONS / LIST</h3>
+
+        <!-- COLLECTION / LIST -->
+        <ul class="collection">
+          <li class="collection-item">Item 1</li>
+          <li class="collection-item">Item 2</li>
+          <li class="collection-item">Item 3</li>
+          <li class="collection-item">Item 4</li>
+        </ul>
+
+        <br><br>
+
+        <!-- LINKS COLLECTION -->
+        <ul class="collection">
+          <a href="#" class="collection-item">Link 1</a>
+          <a href="#" class="collection-item">Link 2</a>
+          <a href="#" class="collection-item">Link 3</a>
+          <a href="#" class="collection-item">Link 4</a>
+        </ul>
+
+        <br><br>
+
+        <!-- WITH HEADER -->
+        <ul class="collection with-header">
+          <li class="collection-item"><h4>Header</h4></li>
+          <li class="collection-item">Item 1</li>
+          <li class="collection-item">Item 2</li>
+          <li class="collection-item">Item 3</li>
+        </ul>
+
+
+      </div> <!-- end container class -->
+
+
+
+
+
+      <div style="height:500px"></div>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+      <script>
+        $(".button-collapse").sideNav();
+      </script>
+    </body>
+  </html>
